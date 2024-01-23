@@ -1,4 +1,7 @@
-This is some of the first warm-up tasks of the CTF. The challenge's description was: *"Levi Ackerman is a robot!"*, with a website: http://66.228.53.87:5000/.
+This is some of the first warm-up tasks of the CTF. The challenge's description was:
+> Levi Ackerman is a robot!
+
+with a website: http://66.228.53.87:5000/.
 <br><br>
 Given the hints, we can try to visit the website's robots.txt to see if any pages are hidden from search engines and crawlers. Upon reaching http://66.228.53.87:5000/robots.txt, we can see that the following page is disallowed:
 <br><br>
