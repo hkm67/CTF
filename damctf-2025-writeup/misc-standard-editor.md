@@ -26,7 +26,7 @@ What if we just quit directly without writing to a file?
 <br>
 ![Pasted image 20250509205634](https://github.com/user-attachments/assets/9d18c153-5e78-476a-b258-cc42af5ef6be)
 <br>
-Hmm, it seems like that the server is using `sed '' *` to read and print out the files created in the `ed` editor. Wildcards in commands are easily exploitable if we can write files to the current directory, which we can in the case.
+Hmm, it seems like that the server is using something like `sed '' *` to read and print out the files created in the `ed` editor. Wildcards in commands are easily exploitable if we can write files to the current directory, which we can in the case.
 <br>
 
 
